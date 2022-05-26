@@ -4,8 +4,97 @@
 const firstUser = {};
 const secondUser = {};
 
+firstUser.name = "Monica";
+firstUser.gender = "Female";
+firstUser.age = 17;
+firstUser.email = "monica@dingdong.com";
+firstUser.favoriteColor = new Set();
+firstUser.isHavePet = "Yes";
+firstUser.education = new Object();
+firstUser.favoriteRestaurant = new Set();
+
+firstUser.favoriteColor.add("Yellow");
+firstUser.favoriteColor.add("Pink");
+firstUser.favoriteColor.add("White");
+firstUser.favoriteColor.add("Purple");
+
+firstUser.education = [
+    {
+        name: "SD 01",
+        city: "Jakarta",
+        graduate: 2016
+    },
+    {
+        name: "SMP 02",
+        city: "Jakarta",
+        graduate: 2019
+    },
+    {
+        name: "SMA 03",
+        city: "Tangerang"
+    }
+]
+
+firstUser.favoriteRestaurant.add("Bento");
+firstUser.favoriteRestaurant.add("Sushi");
+firstUser.favoriteRestaurant.add("Pancake");
+firstUser.favoriteRestaurant.add("Eggy");
+firstUser.favoriteRestaurant.add("Tempura");
+firstUser.favoriteRestaurant.add("Bento");
+firstUser.favoriteRestaurant.add("Eggy");
+firstUser.favoriteRestaurant.add("Padang");
+firstUser.favoriteRestaurant.add("Tteok");
+firstUser.favoriteRestaurant.add("Sushi");
+firstUser.favoriteRestaurant.add("Sushi");
+
+//=====SEPARATOR==========
+
+secondUser.name = "Wendy";
+secondUser.gender = "Male";
+secondUser.age = 23;
+secondUser.email = "wendy@dingdong.com";
+secondUser.favoriteColor = new Set();
+secondUser.isHavePet = "No";
+secondUser.education = new Object();
+secondUser.favoriteRestaurant = new Set();
+secondUser.favoriteColor.add("Blue");
+secondUser.favoriteColor.add("Black");
+secondUser.favoriteColor.add("Grey");
+secondUser.education = [
+    {
+        name: "SD 02",
+        city: "Jakarta",
+        graduate: 2010
+    },
+    {
+        name: "SMP 03",
+        city: "Bogor",
+        graduate: 2013
+    },
+    {
+        name: "SMA 01",
+        city: "Surabaya",
+        city: 2016
+    },
+    {
+        name: "Universitas Maju",
+        city: "Tangerang"
+    }
+];
+secondUser.favoriteRestaurant.add("Tempura");
+secondUser.favoriteRestaurant.add("Bento");
+secondUser.favoriteRestaurant.add("Sushi");
+secondUser.favoriteRestaurant.add("Pancake");
+secondUser.favoriteRestaurant.add("Padang");
+secondUser.favoriteRestaurant.add("Katsu");
+secondUser.favoriteRestaurant.add("Geprek");
+secondUser.favoriteRestaurant.add("Pancake");
+secondUser.favoriteRestaurant.add("Eggy");
+
 // TODO: Masukkan hasil akhir dari kedua user di sini
 const users = [];
+users.push(firstUser, secondUser);
+
 
 // ! JANGAN MODIFIKASI LINE DI BAWAH
 function main() {
