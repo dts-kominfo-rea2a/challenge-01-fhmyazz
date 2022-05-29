@@ -8,12 +8,12 @@ firstUser.name = "Monica";
 firstUser.gender = "Female";
 firstUser.age = 17;
 firstUser.email = "monica@dingdong.com";
-firstUser.favoriteColor = new Set();
+firstUser.favoriteColor = new Set("Yellow", "Pink", "White", "Purple");
 firstUser.isHavePet = "Yes";
 firstUser.education = new Object();
-firstUser.favoriteRestaurant = new Set();
+firstUser.favoriteRestaurant = new Set("Bento", "Sushi", "Pancake", "Eggy", "Tempura", "Bento", "Eggy", "Padang", "Tteok", "Sushi", "Sushi");
 
-firstUser.favoriteColor.add("Yellow").add("Pink").add("White").add("Purple");
+// firstUser.favoriteColor.add("Yellow").add("Pink").add("White").add("Purple");
 
 firstUser.education = [
     {
@@ -32,7 +32,7 @@ firstUser.education = [
     }
 ]
 
-firstUser.favoriteRestaurant.add("Bento").add("Sushi").add("Pancake").add("Eggy").add("Tempura").add("Bento").add("Eggy").add("Padang").add("Tteok").add("Sushi").add("Sushi");
+// firstUser.favoriteRestaurant.add("Bento").add("Sushi").add("Pancake").add("Eggy").add("Tempura").add("Bento").add("Eggy").add("Padang").add("Tteok").add("Sushi").add("Sushi");
 
 //=====SEPARATOR==========
 
@@ -40,11 +40,11 @@ secondUser.name = "Wendy";
 secondUser.gender = "Male";
 secondUser.age = 23;
 secondUser.email = "wendy@dingdong.com";
-secondUser.favoriteColor = new Set();
+secondUser.favoriteColor = new Set("Blue", "Black", "Grey");
 secondUser.isHavePet = "No";
 secondUser.education = new Object();
-secondUser.favoriteRestaurant = new Set();
-secondUser.favoriteColor.add("Blue").add("Black").add("Grey");
+secondUser.favoriteRestaurant = new Set("Tempura", "Bento", "Sushi", "Pancake", "Padang", "Katsu", "Geprek", "Pancake", "Eggy");
+// secondUser.favoriteColor.add("Blue").add("Black").add("Grey");
 secondUser.education = [
     {
         name: "SD 02",
@@ -66,7 +66,7 @@ secondUser.education = [
         city: "Tangerang"
     }
 ];
-secondUser.favoriteRestaurant.add("Tempura").add("Bento").add("Sushi").add("Pancake").add("Padang").add("Katsu").add("Geprek").add("Pancake").add("Eggy");
+// secondUser.favoriteRestaurant.add("Tempura").add("Bento").add("Sushi").add("Pancake").add("Padang").add("Katsu").add("Geprek").add("Pancake").add("Eggy");
 
 // TODO: Masukkan hasil akhir dari kedua user di sini
 const users = [];
