@@ -4,14 +4,19 @@
 const firstUser = {};
 const secondUser = {};
 
+const firstColor = ["Yellow", "Pink", "White", "Purple"];
+const firstRestaurant = ["Bento", "Sushi", "Pancake", "Eggy", "Tempura", "Bento", "Eggy", "Padang", "Tteok", "Sushi", "Sushi"];
+const secondColor = ["Blue", "Black", "Grey"];
+const secondRestaurant = ["Tempura", "Bento", "Sushi", "Pancake", "Padang", "Katsu", "Geprek", "Pancake", "Eggy"];
+
 firstUser.name = "Monica";
 firstUser.gender = "Female";
 firstUser.age = 17;
 firstUser.email = "monica@dingdong.com";
-firstUser.favoriteColor = new Set(["Yellow", "Pink", "White", "Purple"]);
+firstUser.favoriteColor = new Set(firstColor);
 firstUser.isHavePet = "Yes";
 firstUser.education = new Object();
-firstUser.favoriteRestaurant = new Set(["Bento", "Sushi", "Pancake", "Eggy", "Tempura", "Bento", "Eggy", "Padang", "Tteok", "Sushi", "Sushi"]);
+firstUser.favoriteRestaurant = new Set(firstRestaurant);
 
 // firstUser.favoriteColor.add("Yellow").add("Pink").add("White").add("Purple");
 
@@ -40,10 +45,10 @@ secondUser.name = "Wendy";
 secondUser.gender = "Male";
 secondUser.age = 23;
 secondUser.email = "wendy@dingdong.com";
-secondUser.favoriteColor = new Set(["Blue", "Black", "Grey"]);
+secondUser.favoriteColor = new Set(secondColor);
 secondUser.isHavePet = "No";
 secondUser.education = new Object();
-secondUser.favoriteRestaurant = new Set(["Tempura", "Bento", "Sushi", "Pancake", "Padang", "Katsu", "Geprek", "Pancake", "Eggy"]);
+secondUser.favoriteRestaurant = new Set(secondRestaurant);
 // secondUser.favoriteColor.add("Blue").add("Black").add("Grey");
 secondUser.education = [
     {
