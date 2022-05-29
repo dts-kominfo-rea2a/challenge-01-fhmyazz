@@ -13,10 +13,7 @@ firstUser.isHavePet = "Yes";
 firstUser.education = new Object();
 firstUser.favoriteRestaurant = new Set();
 
-firstUser.favoriteColor.add("Yellow");
-firstUser.favoriteColor.add("Pink");
-firstUser.favoriteColor.add("White");
-firstUser.favoriteColor.add("Purple");
+firstUser.favoriteColor.add("Yellow").add("Pink").add("White").add("Purple");
 
 firstUser.education = [
     {
@@ -35,17 +32,7 @@ firstUser.education = [
     }
 ]
 
-firstUser.favoriteRestaurant.add("Bento");
-firstUser.favoriteRestaurant.add("Sushi");
-firstUser.favoriteRestaurant.add("Pancake");
-firstUser.favoriteRestaurant.add("Eggy");
-firstUser.favoriteRestaurant.add("Tempura");
-firstUser.favoriteRestaurant.add("Bento");
-firstUser.favoriteRestaurant.add("Eggy");
-firstUser.favoriteRestaurant.add("Padang");
-firstUser.favoriteRestaurant.add("Tteok");
-firstUser.favoriteRestaurant.add("Sushi");
-firstUser.favoriteRestaurant.add("Sushi");
+firstUser.favoriteRestaurant.add("Bento").add("Sushi").add("Pancake").add("Eggy").add("Tempura").add("Bento").add("Eggy").add("Padang").add("Tteok").add("Sushi").add("Sushi");
 
 //=====SEPARATOR==========
 
@@ -57,9 +44,7 @@ secondUser.favoriteColor = new Set();
 secondUser.isHavePet = "No";
 secondUser.education = new Object();
 secondUser.favoriteRestaurant = new Set();
-secondUser.favoriteColor.add("Blue");
-secondUser.favoriteColor.add("Black");
-secondUser.favoriteColor.add("Grey");
+secondUser.favoriteColor.add("Blue").add("Black").add("Grey");
 secondUser.education = [
     {
         name: "SD 02",
@@ -81,15 +66,7 @@ secondUser.education = [
         city: "Tangerang"
     }
 ];
-secondUser.favoriteRestaurant.add("Tempura");
-secondUser.favoriteRestaurant.add("Bento");
-secondUser.favoriteRestaurant.add("Sushi");
-secondUser.favoriteRestaurant.add("Pancake");
-secondUser.favoriteRestaurant.add("Padang");
-secondUser.favoriteRestaurant.add("Katsu");
-secondUser.favoriteRestaurant.add("Geprek");
-secondUser.favoriteRestaurant.add("Pancake");
-secondUser.favoriteRestaurant.add("Eggy");
+secondUser.favoriteRestaurant.add("Tempura").add("Bento").add("Sushi").add("Pancake").add("Padang").add("Katsu").add("Geprek").add("Pancake").add("Eggy");
 
 // TODO: Masukkan hasil akhir dari kedua user di sini
 const users = [];
